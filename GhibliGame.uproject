@@ -3,14 +3,14 @@
 	"EngineAssociation": "4.26",
 	"Category": "",
 	"Description": "",
-	"Modules": [
+	"Plugins": [
 		{
-			"Name": "GhibliGame",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "StaticMeshEditorExtension",
+			"Enabled": true
 		}
 	]
 }
